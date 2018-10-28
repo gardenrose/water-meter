@@ -1,0 +1,28 @@
+{
+"clientID":"andjela",
+"tema":"vjezba3",
+"broker":"tcp://10.10.0.208:1883",
+"senzori": [
+	{
+		"ime":"temperatura",
+		"min":-3266,
+		"max":3266,
+		"faktor":1
+	},
+	
+	{
+		"ime":"tlak",
+		"min":0,
+		"max":65,
+		"faktor":1
+	},
+	
+	{
+		"ime":"protok",
+		"min":0,
+		"max":65336,
+		"faktor":3
+	}
+	
+	]
+}
